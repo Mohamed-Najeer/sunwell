@@ -1,0 +1,244 @@
+.downer_signin{
+  box-shadow: 4px 8px 10px 0.5px #afadad;
+}
+.downer_signin input:focus,.downer_signin input:hover{
+  border-color: var(--orangeshade);
+box-shadow: 0 0px 0px var(--orangeshade) inset, 0 0 1px var(--orangeshade);
+outline: 2 none;
+}
+.downer_signin, .downer_signin .form-group{
+  margin-bottom: 10%;
+}
+.login_Form form{
+  padding: 10% 10% 0px 33%;
+}
+.downer_signin .login_Form button[type="submit"],.login_Form_xs button[type="submit"]{
+  background-color: var(--blueshade);
+  border:0.5px solid var(--blueshade);
+  color:var(--org-content);
+}
+.downer_signin .login_Form button[type="submit"]:hover{
+background-color: var(--orangeshade);
+border:1px solid var(--orangeshade);
+color: var(--hoverbtn-txt-style);
+font-weight: 400;
+}
+
+
+@media screen and (max-width: 3000px) and (min-width: 2010px) {
+          .upper {
+              background-color: var(--blueshade);
+              width: 18%;
+              height: 550px;
+              position: relative;
+              top: 300px;
+              left: 32%;
+              right: 0;
+              bottom: 0;
+              z-index: 2;
+              border-radius: 15.5px;
+          }
+            .downer_signin{
+              background-color: #ffffff;
+              width: 25%;
+              height: 550px;
+              position: absolute;
+              top: 18%;
+              left: 44%;
+              right: 0;
+              bottom: 0;
+              z-index: 1;
+              border-radius: 15.5px;
+              box-shadow: 4px 8px 10px 0.5px #afadad;  /* 0px 0px 10px 0.5px grey; */
+          }
+          .upper h5 {
+              font-size: 20px;
+              line-height: 1.5;
+          }
+      }
+      
+@media(max-width:2000px){
+  .upper {
+      background-color: var(--blueshade);
+      width: 20%;
+      height: 450px;
+      position: relative;
+      top: 288px;
+      left: 30%;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      border-radius: 15.5px;
+  }
+    .downer_signin{
+      background-color: #ffffff;
+      width: 30%;
+      height: 450px;
+      position: absolute;
+      top:23%;
+      left: 42%;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      border-radius: 15.5px;
+  }
+  .upper h5 {
+      font-size: 16px;
+      line-height: 1.5;
+  }
+}
+  @media(max-width:1445px){
+  .downer_signin {
+      background-color: #ffffff;
+      width: 38%;
+      height: 450px;
+      position: absolute;
+      top: 100px;
+      left: 42%;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      border-radius: 15.5px;
+  }
+  .upper {
+      background-color: var(--blueshade);
+      width: 28%;
+      height: 450px;
+      position: relative;
+      top: 175px;
+      left: 23%;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      border-radius: 15.5px;
+  }
+  .upper .logo {
+      width: 50%;
+      margin: 10% 25%;
+  }
+  .upper h5 {
+      font-size: 16px;
+  }
+
+  }
+  .downer_signin .form-group .form-control{
+    font-size: 13.5px;
+  }
+      @media(max-width:1025px) and (max-height:1367px){
+          .downer_signin {
+              background-color: #ffffff;
+              height: 429px;
+              position: absolute;
+              top: 15%;
+              left: 39%;
+              right: 0;
+              bottom: 0;
+              z-index: 1;
+              border-radius: 15.5px;
+              width: 50%;
+          }
+      }
+      @media(max-width:1025px) and (max-height:867px){
+          .downer_signin {
+              background-color: #ffffff;
+              height: 429px;
+              position: absolute;
+              top: 15%;
+              left: 39%;
+              right: 0;
+              bottom: 0;
+              z-index: 1;
+              border-radius: 15.5px;
+              width: 50%;
+          }
+          }
+          @media(max-width:770px){
+            .downer_signin {
+              background-color: #ffffff;
+  height: 429px;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 15.5px;
+  width: 60%;
+          }
+          }
+      @media(max-width:540px) and (min-width:500px){
+        .downer_signin{
+          margin: 0%;
+          width: 85vw;
+          top: 150px;
+          left: 7.5%;
+          height: 75vh;
+          border-radius:0;
+          box-shadow: 2px 20px 16px -10.5px #afadad;
+          }
+          .upper {
+            width: 90vw;
+            margin:5% auto;
+            height:80vh;
+            z-index: 1;
+            border-radius: 0;
+            top: 0;
+            }
+            .login_Form h6 {
+              margin: 14% 0 0 0;
+              font-size: medium;
+          }
+          .login_Form form {
+              padding: 10% 5% 0px 5%;
+          }
+      }
+      @media(max-width:539px){
+        .downer_signin{
+          margin: 0% ;
+          width: 85vw;
+          top: 120px;
+          left: 7.5%;
+          height: 75vh;
+          border-radius:0;
+          box-shadow: 2px 20px 16px -10.5px #afadad;
+          }
+          .upper {
+              width: 90vw;
+              margin:5% auto;
+              height:80vh;
+              z-index: 1;
+              border-radius: 0;
+              top: 0;
+              }
+              .login_Form h6 {
+                margin: 14% 0 0 0;
+                font-size: medium;
+            }
+            .login_Form form {
+                padding: 10% 5% 0px 5%;
+            }
+      }
+      @media(max-width:375px){
+        .downer_signin {
+          top: 110px;
+        }
+      }
+      @media(max-width:360px){
+        .downer_signin {
+          height: 82vh;
+          top: 120px;
+      }
+    }
+      @media(max-width:320px){
+        .downer_signin{
+          top: 100px;
+          }
+        }
+      @media(max-width:280px){
+.register_span{    
+font-size:14px;
+}
+.downer_signin{
+  top: 90px;
+  }
+      }
